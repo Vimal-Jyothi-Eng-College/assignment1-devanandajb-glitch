@@ -1,0 +1,9 @@
+limit = int(input("Enter limit: "))
+numbers = []
+
+for i in range(limit):
+    x = int(input("Enter value: "))
+    numbers.append(x)
+
+total = sum(numbers)
+print("Sum =", total)
